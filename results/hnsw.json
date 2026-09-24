@@ -1,0 +1,417 @@
+[
+  {
+    "query": "a question about a graphics card driver",
+    "exact": {
+      "ids": [
+        5042,
+        2038,
+        2940,
+        2213,
+        1142
+      ],
+      "latency_ms": 5.848459000000084
+    },
+    "hnsw_default": {
+      "16": {
+        "ids": [
+          5042,
+          2038,
+          2940,
+          2213,
+          1142
+        ],
+        "latency_ms": 6.028624999999899,
+        "overlap_with_exact": 1.0
+      },
+      "64": {
+        "ids": [
+          5042,
+          2038,
+          2940,
+          2213,
+          1142
+        ],
+        "latency_ms": 6.4013750000002645,
+        "overlap_with_exact": 1.0
+      },
+      "128": {
+        "ids": [
+          5042,
+          2038,
+          2940,
+          2213,
+          1142
+        ],
+        "latency_ms": 6.016332999999818,
+        "overlap_with_exact": 1.0
+      }
+    },
+    "hnsw_undertuned": {
+      "16": {
+        "ids": [
+          5042,
+          2038,
+          2940,
+          2213,
+          1142
+        ],
+        "latency_ms": 5.513167000000152,
+        "overlap_with_exact": 1.0
+      },
+      "64": {
+        "ids": [
+          5042,
+          2038,
+          2940,
+          2213,
+          1142
+        ],
+        "latency_ms": 6.319374999999461,
+        "overlap_with_exact": 1.0
+      },
+      "128": {
+        "ids": [
+          5042,
+          2038,
+          2940,
+          2213,
+          1142
+        ],
+        "latency_ms": 5.507666999999827,
+        "overlap_with_exact": 1.0
+      }
+    }
+  },
+  {
+    "query": "discussion about God and religious faith",
+    "exact": {
+      "ids": [
+        4253,
+        4780,
+        2161,
+        659,
+        4479
+      ],
+      "latency_ms": 5.605250000000339
+    },
+    "hnsw_default": {
+      "16": {
+        "ids": [
+          4253,
+          4780,
+          2161,
+          659,
+          4479
+        ],
+        "latency_ms": 5.898458999999967,
+        "overlap_with_exact": 1.0
+      },
+      "64": {
+        "ids": [
+          4253,
+          4780,
+          2161,
+          659,
+          4479
+        ],
+        "latency_ms": 6.443208000000311,
+        "overlap_with_exact": 1.0
+      },
+      "128": {
+        "ids": [
+          4253,
+          4780,
+          2161,
+          659,
+          4479
+        ],
+        "latency_ms": 6.235417000000076,
+        "overlap_with_exact": 1.0
+      }
+    },
+    "hnsw_undertuned": {
+      "16": {
+        "ids": [
+          4253,
+          4780,
+          2161,
+          659,
+          4479
+        ],
+        "latency_ms": 6.994834000000338,
+        "overlap_with_exact": 1.0
+      },
+      "64": {
+        "ids": [
+          4253,
+          4780,
+          2161,
+          659,
+          4479
+        ],
+        "latency_ms": 5.167708999999299,
+        "overlap_with_exact": 1.0
+      },
+      "128": {
+        "ids": [
+          4253,
+          4780,
+          2161,
+          659,
+          4479
+        ],
+        "latency_ms": 5.680332999999926,
+        "overlap_with_exact": 1.0
+      }
+    }
+  },
+  {
+    "query": "advice on treating a medical illness",
+    "exact": {
+      "ids": [
+        5050,
+        4507,
+        5113,
+        1831,
+        3543
+      ],
+      "latency_ms": 6.819541999999679
+    },
+    "hnsw_default": {
+      "16": {
+        "ids": [
+          5050,
+          4507,
+          5113,
+          1831,
+          3543
+        ],
+        "latency_ms": 5.316166000000067,
+        "overlap_with_exact": 1.0
+      },
+      "64": {
+        "ids": [
+          5050,
+          4507,
+          5113,
+          1831,
+          3543
+        ],
+        "latency_ms": 5.717583999999221,
+        "overlap_with_exact": 1.0
+      },
+      "128": {
+        "ids": [
+          5050,
+          4507,
+          5113,
+          1831,
+          3543
+        ],
+        "latency_ms": 5.651000000000295,
+        "overlap_with_exact": 1.0
+      }
+    },
+    "hnsw_undertuned": {
+      "16": {
+        "ids": [
+          5050,
+          4507,
+          5113,
+          1831,
+          3543
+        ],
+        "latency_ms": 5.631250000000421,
+        "overlap_with_exact": 1.0
+      },
+      "64": {
+        "ids": [
+          5050,
+          4507,
+          5113,
+          1831,
+          3543
+        ],
+        "latency_ms": 5.271707999999542,
+        "overlap_with_exact": 1.0
+      },
+      "128": {
+        "ids": [
+          5050,
+          4507,
+          5113,
+          1831,
+          3543
+        ],
+        "latency_ms": 6.1188340000004615,
+        "overlap_with_exact": 1.0
+      }
+    }
+  },
+  {
+    "query": "opinions on strict gun control laws",
+    "exact": {
+      "ids": [
+        1355,
+        4648,
+        627,
+        3487,
+        178
+      ],
+      "latency_ms": 5.355791999999582
+    },
+    "hnsw_default": {
+      "16": {
+        "ids": [
+          1355,
+          4648,
+          627,
+          3487,
+          178
+        ],
+        "latency_ms": 5.279333999999913,
+        "overlap_with_exact": 1.0
+      },
+      "64": {
+        "ids": [
+          1355,
+          4648,
+          627,
+          3487,
+          178
+        ],
+        "latency_ms": 6.635625000000367,
+        "overlap_with_exact": 1.0
+      },
+      "128": {
+        "ids": [
+          1355,
+          4648,
+          627,
+          3487,
+          178
+        ],
+        "latency_ms": 5.31416699999987,
+        "overlap_with_exact": 1.0
+      }
+    },
+    "hnsw_undertuned": {
+      "16": {
+        "ids": [
+          1355,
+          4648,
+          627,
+          3487,
+          178
+        ],
+        "latency_ms": 5.25500000000001,
+        "overlap_with_exact": 1.0
+      },
+      "64": {
+        "ids": [
+          1355,
+          4648,
+          627,
+          3487,
+          178
+        ],
+        "latency_ms": 5.793999999999855,
+        "overlap_with_exact": 1.0
+      },
+      "128": {
+        "ids": [
+          1355,
+          4648,
+          627,
+          3487,
+          178
+        ],
+        "latency_ms": 5.47849999999972,
+        "overlap_with_exact": 1.0
+      }
+    }
+  },
+  {
+    "query": "technical details about a space shuttle mission",
+    "exact": {
+      "ids": [
+        2681,
+        2030,
+        5239,
+        3142,
+        5560
+      ],
+      "latency_ms": 5.2117499999999595
+    },
+    "hnsw_default": {
+      "16": {
+        "ids": [
+          2681,
+          2030,
+          5239,
+          3142,
+          5560
+        ],
+        "latency_ms": 6.138125000000549,
+        "overlap_with_exact": 1.0
+      },
+      "64": {
+        "ids": [
+          2681,
+          2030,
+          5239,
+          3142,
+          5560
+        ],
+        "latency_ms": 5.314832999999908,
+        "overlap_with_exact": 1.0
+      },
+      "128": {
+        "ids": [
+          2681,
+          2030,
+          5239,
+          3142,
+          5560
+        ],
+        "latency_ms": 5.022958999999716,
+        "overlap_with_exact": 1.0
+      }
+    },
+    "hnsw_undertuned": {
+      "16": {
+        "ids": [
+          2681,
+          2030,
+          5239,
+          3142,
+          5560
+        ],
+        "latency_ms": 5.8117500000003375,
+        "overlap_with_exact": 1.0
+      },
+      "64": {
+        "ids": [
+          2681,
+          2030,
+          5239,
+          3142,
+          5560
+        ],
+        "latency_ms": 5.151875000000139,
+        "overlap_with_exact": 1.0
+      },
+      "128": {
+        "ids": [
+          2681,
+          2030,
+          5239,
+          3142,
+          5560
+        ],
+        "latency_ms": 5.143333000000361,
+        "overlap_with_exact": 1.0
+      }
+    }
+  }
+]

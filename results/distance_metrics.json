@@ -1,0 +1,432 @@
+[
+  {
+    "query": "a question about a graphics card driver",
+    "results": {
+      "newsgroups_cosine": [
+        {
+          "id": 5042,
+          "score": 0.4634145,
+          "category": "comp.os.ms-windows.misc"
+        },
+        {
+          "id": 2038,
+          "score": 0.46021187,
+          "category": "comp.graphics"
+        },
+        {
+          "id": 2940,
+          "score": 0.4347052,
+          "category": "comp.os.ms-windows.misc"
+        },
+        {
+          "id": 2213,
+          "score": 0.43298203,
+          "category": "comp.graphics"
+        },
+        {
+          "id": 1142,
+          "score": 0.38821626,
+          "category": "comp.os.ms-windows.misc"
+        }
+      ],
+      "newsgroups_euclidean": [
+        {
+          "id": 5042,
+          "score": 1.0359397,
+          "category": "comp.os.ms-windows.misc"
+        },
+        {
+          "id": 2038,
+          "score": 1.0390265,
+          "category": "comp.graphics"
+        },
+        {
+          "id": 2940,
+          "score": 1.0632919,
+          "category": "comp.os.ms-windows.misc"
+        },
+        {
+          "id": 2213,
+          "score": 1.0649112,
+          "category": "comp.graphics"
+        },
+        {
+          "id": 1142,
+          "score": 1.1061498,
+          "category": "comp.os.ms-windows.misc"
+        }
+      ],
+      "newsgroups_dot": [
+        {
+          "id": 5042,
+          "score": 0.4634145,
+          "category": "comp.os.ms-windows.misc"
+        },
+        {
+          "id": 2038,
+          "score": 0.46021187,
+          "category": "comp.graphics"
+        },
+        {
+          "id": 2940,
+          "score": 0.4347052,
+          "category": "comp.os.ms-windows.misc"
+        },
+        {
+          "id": 2213,
+          "score": 0.43298203,
+          "category": "comp.graphics"
+        },
+        {
+          "id": 1142,
+          "score": 0.38821626,
+          "category": "comp.os.ms-windows.misc"
+        }
+      ]
+    }
+  },
+  {
+    "query": "discussion about God and religious faith",
+    "results": {
+      "newsgroups_cosine": [
+        {
+          "id": 4253,
+          "score": 0.52197146,
+          "category": "alt.atheism"
+        },
+        {
+          "id": 4780,
+          "score": 0.4952612,
+          "category": "soc.religion.christian"
+        },
+        {
+          "id": 2161,
+          "score": 0.4930977,
+          "category": "talk.religion.misc"
+        },
+        {
+          "id": 659,
+          "score": 0.4794035,
+          "category": "soc.religion.christian"
+        },
+        {
+          "id": 4479,
+          "score": 0.4735487,
+          "category": "talk.religion.misc"
+        }
+      ],
+      "newsgroups_euclidean": [
+        {
+          "id": 4253,
+          "score": 0.97778165,
+          "category": "alt.atheism"
+        },
+        {
+          "id": 4780,
+          "score": 1.0047276,
+          "category": "soc.religion.christian"
+        },
+        {
+          "id": 2161,
+          "score": 1.0068786,
+          "category": "talk.religion.misc"
+        },
+        {
+          "id": 659,
+          "score": 1.0203885,
+          "category": "soc.religion.christian"
+        },
+        {
+          "id": 4479,
+          "score": 1.0261105,
+          "category": "talk.religion.misc"
+        }
+      ],
+      "newsgroups_dot": [
+        {
+          "id": 4253,
+          "score": 0.52197146,
+          "category": "alt.atheism"
+        },
+        {
+          "id": 4780,
+          "score": 0.4952612,
+          "category": "soc.religion.christian"
+        },
+        {
+          "id": 2161,
+          "score": 0.4930977,
+          "category": "talk.religion.misc"
+        },
+        {
+          "id": 659,
+          "score": 0.4794035,
+          "category": "soc.religion.christian"
+        },
+        {
+          "id": 4479,
+          "score": 0.4735487,
+          "category": "talk.religion.misc"
+        }
+      ]
+    }
+  },
+  {
+    "query": "advice on treating a medical illness",
+    "results": {
+      "newsgroups_cosine": [
+        {
+          "id": 5050,
+          "score": 0.50405914,
+          "category": "sci.med"
+        },
+        {
+          "id": 4507,
+          "score": 0.4749956,
+          "category": "sci.med"
+        },
+        {
+          "id": 5113,
+          "score": 0.45037162,
+          "category": "sci.med"
+        },
+        {
+          "id": 1831,
+          "score": 0.4493509,
+          "category": "sci.med"
+        },
+        {
+          "id": 3543,
+          "score": 0.43077856,
+          "category": "sci.med"
+        }
+      ],
+      "newsgroups_euclidean": [
+        {
+          "id": 5050,
+          "score": 0.99593246,
+          "category": "sci.med"
+        },
+        {
+          "id": 4507,
+          "score": 1.0246993,
+          "category": "sci.med"
+        },
+        {
+          "id": 5113,
+          "score": 1.0484544,
+          "category": "sci.med"
+        },
+        {
+          "id": 1831,
+          "score": 1.0494275,
+          "category": "sci.med"
+        },
+        {
+          "id": 3543,
+          "score": 1.0669783,
+          "category": "sci.med"
+        }
+      ],
+      "newsgroups_dot": [
+        {
+          "id": 5050,
+          "score": 0.50405914,
+          "category": "sci.med"
+        },
+        {
+          "id": 4507,
+          "score": 0.4749956,
+          "category": "sci.med"
+        },
+        {
+          "id": 5113,
+          "score": 0.45037162,
+          "category": "sci.med"
+        },
+        {
+          "id": 1831,
+          "score": 0.4493509,
+          "category": "sci.med"
+        },
+        {
+          "id": 3543,
+          "score": 0.43077856,
+          "category": "sci.med"
+        }
+      ]
+    }
+  },
+  {
+    "query": "opinions on strict gun control laws",
+    "results": {
+      "newsgroups_cosine": [
+        {
+          "id": 1355,
+          "score": 0.6135677,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 4648,
+          "score": 0.5980074,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 627,
+          "score": 0.5919849,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 3487,
+          "score": 0.5888981,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 178,
+          "score": 0.58177185,
+          "category": "talk.politics.guns"
+        }
+      ],
+      "newsgroups_euclidean": [
+        {
+          "id": 1355,
+          "score": 0.87912726,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 4648,
+          "score": 0.8966523,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 627,
+          "score": 0.90334386,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 3487,
+          "score": 0.9067545,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 178,
+          "score": 0.9145799,
+          "category": "talk.politics.guns"
+        }
+      ],
+      "newsgroups_dot": [
+        {
+          "id": 1355,
+          "score": 0.6135677,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 4648,
+          "score": 0.5980074,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 627,
+          "score": 0.5919849,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 3487,
+          "score": 0.5888981,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 178,
+          "score": 0.58177185,
+          "category": "talk.politics.guns"
+        }
+      ]
+    }
+  },
+  {
+    "query": "technical details about a space shuttle mission",
+    "results": {
+      "newsgroups_cosine": [
+        {
+          "id": 2681,
+          "score": 0.47198415,
+          "category": "sci.space"
+        },
+        {
+          "id": 2030,
+          "score": 0.46607548,
+          "category": "sci.space"
+        },
+        {
+          "id": 5239,
+          "score": 0.46316487,
+          "category": "sci.space"
+        },
+        {
+          "id": 3142,
+          "score": 0.45775673,
+          "category": "sci.space"
+        },
+        {
+          "id": 5560,
+          "score": 0.44260582,
+          "category": "sci.space"
+        }
+      ],
+      "newsgroups_euclidean": [
+        {
+          "id": 2681,
+          "score": 1.027634,
+          "category": "sci.space"
+        },
+        {
+          "id": 2030,
+          "score": 1.0333679,
+          "category": "sci.space"
+        },
+        {
+          "id": 5239,
+          "score": 1.0361806,
+          "category": "sci.space"
+        },
+        {
+          "id": 3142,
+          "score": 1.0413868,
+          "category": "sci.space"
+        },
+        {
+          "id": 5560,
+          "score": 1.0558354,
+          "category": "sci.space"
+        }
+      ],
+      "newsgroups_dot": [
+        {
+          "id": 2681,
+          "score": 0.47198415,
+          "category": "sci.space"
+        },
+        {
+          "id": 2030,
+          "score": 0.46607548,
+          "category": "sci.space"
+        },
+        {
+          "id": 5239,
+          "score": 0.46316487,
+          "category": "sci.space"
+        },
+        {
+          "id": 3142,
+          "score": 0.45775673,
+          "category": "sci.space"
+        },
+        {
+          "id": 5560,
+          "score": 0.44260582,
+          "category": "sci.space"
+        }
+      ]
+    }
+  }
+]
