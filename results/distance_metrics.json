@@ -5,81 +5,81 @@
       "newsgroups_cosine": [
         {
           "id": 5042,
-          "score": 0.4634145,
+          "score": 0.46341455,
           "category": "comp.os.ms-windows.misc"
         },
         {
           "id": 2038,
-          "score": 0.46021187,
+          "score": 0.46021193,
           "category": "comp.graphics"
         },
         {
           "id": 2940,
-          "score": 0.4347052,
+          "score": 0.43470523,
           "category": "comp.os.ms-windows.misc"
         },
         {
           "id": 2213,
-          "score": 0.43298203,
+          "score": 0.43298206,
           "category": "comp.graphics"
         },
         {
           "id": 1142,
-          "score": 0.38821626,
+          "score": 0.38821632,
           "category": "comp.os.ms-windows.misc"
         }
       ],
       "newsgroups_euclidean": [
         {
           "id": 5042,
-          "score": 1.0359397,
+          "score": 6.2499285,
           "category": "comp.os.ms-windows.misc"
         },
         {
           "id": 2038,
-          "score": 1.0390265,
+          "score": 6.3401647,
           "category": "comp.graphics"
         },
         {
           "id": 2940,
-          "score": 1.0632919,
+          "score": 6.341535,
           "category": "comp.os.ms-windows.misc"
         },
         {
           "id": 2213,
-          "score": 1.0649112,
+          "score": 6.3830643,
           "category": "comp.graphics"
         },
         {
-          "id": 1142,
-          "score": 1.1061498,
-          "category": "comp.os.ms-windows.misc"
+          "id": 5540,
+          "score": 6.4951105,
+          "category": "comp.graphics"
         }
       ],
       "newsgroups_dot": [
         {
-          "id": 5042,
-          "score": 0.4634145,
-          "category": "comp.os.ms-windows.misc"
+          "id": 1014,
+          "score": 12.734165,
+          "category": "comp.windows.x"
         },
         {
-          "id": 2038,
-          "score": 0.46021187,
+          "id": 2351,
+          "score": 12.519972,
           "category": "comp.graphics"
         },
         {
-          "id": 2940,
-          "score": 0.4347052,
+          "id": 5291,
+          "score": 12.012869,
           "category": "comp.os.ms-windows.misc"
         },
         {
-          "id": 2213,
-          "score": 0.43298203,
+          "id": 2548,
+          "score": 9.9627075,
           "category": "comp.graphics"
         },
         {
-          "id": 1142,
-          "score": 0.38821626,
+          "id": 1702,
+          "score": 9.482168,
           "category": "comp.os.ms-windows.misc"
         }
       ]
@@ -96,77 +96,77 @@
         },
         {
           "id": 4780,
-          "score": 0.4952612,
+          "score": 0.49526125,
           "category": "soc.religion.christian"
         },
         {
           "id": 2161,
-          "score": 0.4930977,
+          "score": 0.49309772,
           "category": "talk.religion.misc"
         },
         {
           "id": 659,
-          "score": 0.4794035,
+          "score": 0.47940361,
           "category": "soc.religion.christian"
         },
         {
           "id": 4479,
-          "score": 0.4735487,
+          "score": 0.47354877,
           "category": "talk.religion.misc"
         }
       ],
       "newsgroups_euclidean": [
         {
           "id": 4253,
-          "score": 0.97778165,
+          "score": 5.2617307,
           "category": "alt.atheism"
         },
         {
-          "id": 4780,
-          "score": 1.0047276,
-          "category": "soc.religion.christian"
-        },
-        {
-          "id": 2161,
-          "score": 1.0068786,
-          "category": "talk.religion.misc"
-        },
-        {
           "id": 659,
-          "score": 1.0203885,
+          "score": 5.2731023,
           "category": "soc.religion.christian"
         },
         {
-          "id": 4479,
-          "score": 1.0261105,
-          "category": "talk.religion.misc"
+          "id": 2782,
+          "score": 5.2853227,
+          "category": "soc.religion.christian"
+        },
+        {
+          "id": 4959,
+          "score": 5.287546,
+          "category": "alt.atheism"
+        },
+        {
+          "id": 2577,
+          "score": 5.3047767,
+          "category": "soc.religion.christian"
         }
       ],
       "newsgroups_dot": [
         {
-          "id": 4253,
-          "score": 0.52197146,
+          "id": 5251,
+          "score": 9.13449,
           "category": "alt.atheism"
         },
         {
-          "id": 4780,
-          "score": 0.4952612,
-          "category": "soc.religion.christian"
-        },
-        {
-          "id": 2161,
-          "score": 0.4930977,
+          "id": 3882,
+          "score": 8.33996,
           "category": "talk.religion.misc"
         },
         {
-          "id": 659,
-          "score": 0.4794035,
+          "id": 2757,
+          "score": 7.927069,
+          "category": "alt.atheism"
+        },
+        {
+          "id": 3800,
+          "score": 7.858273,
           "category": "soc.religion.christian"
         },
         {
-          "id": 4479,
-          "score": 0.4735487,
-          "category": "talk.religion.misc"
+          "id": 4518,
+          "score": 7.663354,
+          "category": "rec.sport.hockey"
         }
       ]
     }
@@ -177,7 +177,7 @@
       "newsgroups_cosine": [
         {
           "id": 5050,
-          "score": 0.50405914,
+          "score": 0.5040591,
           "category": "sci.med"
         },
         {
@@ -187,7 +187,7 @@
         },
         {
           "id": 5113,
-          "score": 0.45037162,
+          "score": 0.45037156,
           "category": "sci.med"
         },
         {
@@ -204,54 +204,54 @@
       "newsgroups_euclidean": [
         {
           "id": 5050,
-          "score": 0.99593246,
-          "category": "sci.med"
-        },
-        {
-          "id": 4507,
-          "score": 1.0246993,
+          "score": 5.17481,
           "category": "sci.med"
         },
         {
           "id": 5113,
-          "score": 1.0484544,
+          "score": 5.2059793,
+          "category": "sci.med"
+        },
+        {
+          "id": 4507,
+          "score": 5.2493453,
           "category": "sci.med"
         },
         {
           "id": 1831,
-          "score": 1.0494275,
+          "score": 5.2670875,
           "category": "sci.med"
         },
         {
-          "id": 3543,
-          "score": 1.0669783,
+          "id": 505,
+          "score": 5.279892,
           "category": "sci.med"
         }
       ],
       "newsgroups_dot": [
         {
-          "id": 5050,
-          "score": 0.50405914,
+          "id": 202,
+          "score": 8.757842,
+          "category": "talk.politics.mideast"
+        },
+        {
+          "id": 2718,
+          "score": 7.4042645,
           "category": "sci.med"
         },
         {
-          "id": 4507,
-          "score": 0.4749956,
+          "id": 5392,
+          "score": 7.041111,
           "category": "sci.med"
         },
         {
-          "id": 5113,
-          "score": 0.45037162,
+          "id": 2270,
+          "score": 6.2713127,
           "category": "sci.med"
         },
         {
-          "id": 1831,
-          "score": 0.4493509,
-          "category": "sci.med"
-        },
-        {
-          "id": 3543,
-          "score": 0.43077856,
+          "id": 4377,
+          "score": 5.831843,
           "category": "sci.med"
         }
       ]
@@ -268,17 +268,17 @@
         },
         {
           "id": 4648,
-          "score": 0.5980074,
+          "score": 0.5980073,
           "category": "talk.politics.guns"
         },
         {
           "id": 627,
-          "score": 0.5919849,
+          "score": 0.591985,
           "category": "talk.politics.guns"
         },
         {
           "id": 3487,
-          "score": 0.5888981,
+          "score": 0.5888982,
           "category": "talk.politics.guns"
         },
         {
@@ -290,55 +290,55 @@
       "newsgroups_euclidean": [
         {
           "id": 1355,
-          "score": 0.87912726,
+          "score": 5.6499915,
           "category": "talk.politics.guns"
         },
         {
-          "id": 4648,
-          "score": 0.8966523,
+          "id": 2074,
+          "score": 5.8180604,
           "category": "talk.politics.guns"
         },
         {
-          "id": 627,
-          "score": 0.90334386,
-          "category": "talk.politics.guns"
-        },
-        {
-          "id": 3487,
-          "score": 0.9067545,
-          "category": "talk.politics.guns"
+          "id": 5567,
+          "score": 5.8898335,
+          "category": "talk.religion.misc"
         },
         {
           "id": 178,
-          "score": 0.9145799,
+          "score": 5.957942,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 5168,
+          "score": 6.014307,
           "category": "talk.politics.guns"
         }
       ],
       "newsgroups_dot": [
         {
+          "id": 2074,
+          "score": 14.662172,
+          "category": "talk.politics.guns"
+        },
+        {
+          "id": 1199,
+          "score": 13.876764,
+          "category": "soc.religion.christian"
+        },
+        {
+          "id": 5567,
+          "score": 12.650585,
+          "category": "talk.religion.misc"
+        },
+        {
           "id": 1355,
-          "score": 0.6135677,
+          "score": 12.389631,
           "category": "talk.politics.guns"
         },
         {
-          "id": 4648,
-          "score": 0.5980074,
-          "category": "talk.politics.guns"
-        },
-        {
-          "id": 627,
-          "score": 0.5919849,
-          "category": "talk.politics.guns"
-        },
-        {
-          "id": 3487,
-          "score": 0.5888981,
-          "category": "talk.politics.guns"
-        },
-        {
-          "id": 178,
-          "score": 0.58177185,
-          "category": "talk.politics.guns"
+          "id": 2919,
+          "score": 11.961967,
+          "category": "sci.electronics"
         }
       ]
     }
@@ -354,12 +354,12 @@
         },
         {
           "id": 2030,
-          "score": 0.46607548,
+          "score": 0.46607542,
           "category": "sci.space"
         },
         {
           "id": 5239,
-          "score": 0.46316487,
+          "score": 0.46316493,
           "category": "sci.space"
         },
         {
@@ -376,54 +376,54 @@
       "newsgroups_euclidean": [
         {
           "id": 2681,
-          "score": 1.027634,
+          "score": 4.9314404,
           "category": "sci.space"
         },
         {
           "id": 2030,
-          "score": 1.0333679,
+          "score": 4.9460115,
           "category": "sci.space"
         },
         {
           "id": 5239,
-          "score": 1.0361806,
+          "score": 4.9791183,
           "category": "sci.space"
         },
         {
           "id": 3142,
-          "score": 1.0413868,
+          "score": 4.9862204,
           "category": "sci.space"
         },
         {
           "id": 5560,
-          "score": 1.0558354,
+          "score": 5.0008683,
           "category": "sci.space"
         }
       ],
       "newsgroups_dot": [
         {
-          "id": 2681,
-          "score": 0.47198415,
-          "category": "sci.space"
-        },
-        {
-          "id": 2030,
-          "score": 0.46607548,
-          "category": "sci.space"
-        },
-        {
           "id": 5239,
-          "score": 0.46316487,
+          "score": 9.041847,
           "category": "sci.space"
         },
         {
-          "id": 3142,
-          "score": 0.45775673,
+          "id": 2647,
+          "score": 7.949847,
           "category": "sci.space"
         },
         {
-          "id": 5560,
-          "score": 0.44260582,
+          "id": 4241,
+          "score": 6.4026833,
+          "category": "sci.space"
+        },
+        {
+          "id": 844,
+          "score": 6.107296,
+          "category": "rec.sport.hockey"
+        },
+        {
+          "id": 1869,
+          "score": 5.9038134,
           "category": "sci.space"
         }
       ]

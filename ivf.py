@@ -39,8 +39,15 @@ def _normalize(matrix: np.ndarray) -> np.ndarray:
 def build_ivf_index(vectors: np.ndarray, k: int = DEFAULT_N_CLUSTERS, seed: int = 42) -> IVFIndex:
     """Cluster vectors into k clusters with KMeans and record which vector
     ids fall into each cluster, along with the cluster centroids."""
+    if vectors.ndim != 2 or not np.isfinite(vectors).all():
+        raise ValueError("Expected a finite 2D vector matrix")
+    if not 1 <= k <= len(vectors) or np.any(np.linalg.norm(vectors, axis=1) == 0):
+        raise ValueError("Invalid cluster count or zero-length vector")
+    normalized = _normalize(vectors)
+    # Ordinary Euclidean KMeans on unit vectors; cosine routing is an
+    # explicit heuristic, not a claim that this is spherical KMeans.
     kmeans = KMeans(n_clusters=k, random_state=seed, n_init=10)
-    assignments = kmeans.fit_predict(vectors)
+    assignments = kmeans.fit_predict(normalized)
 
     cluster_to_ids = {i: [] for i in range(k)}
     for vector_id, cluster_id in enumerate(assignments):
@@ -50,7 +57,7 @@ def build_ivf_index(vectors: np.ndarray, k: int = DEFAULT_N_CLUSTERS, seed: int 
         centroids=kmeans.cluster_centers_,
         cluster_to_ids=cluster_to_ids,
         vectors=vectors,
-        normalized_vectors=_normalize(vectors),
+        normalized_vectors=normalized,
     )
 
 
@@ -58,7 +65,14 @@ def search_ivf(query_vector: np.ndarray, index: IVFIndex, nprobe: int, k: int):
     """Find the nprobe nearest centroids to the query (cosine similarity),
     then compute exact cosine similarity only against vectors belonging to
     those clusters. Returns a list of (vector_id, score) tuples, top-k."""
-    query_norm = query_vector / (np.linalg.norm(query_vector) + 1e-10)
+    if not 1 <= nprobe <= len(index.centroids) or k < 1:
+        raise ValueError("nprobe must be within cluster count and k must be positive")
+    if query_vector.shape != (index.vectors.shape[1],) or not np.isfinite(query_vector).all():
+        raise ValueError("Query has invalid shape or values")
+    norm = np.linalg.norm(query_vector)
+    if norm == 0:
+        raise ValueError("Cosine search requires a nonzero query")
+    query_norm = query_vector / norm
 
     # Step 1: rank clusters by how similar their centroid is to the query.
     normalized_centroids = _normalize(index.centroids)

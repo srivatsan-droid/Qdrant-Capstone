@@ -1,0 +1,36 @@
+{
+  "python": "3.11.16",
+  "platform": "macOS-26.7-arm64-arm-64bit",
+  "packages": {
+    "qdrant-client": "1.19.1",
+    "numpy": "2.2.6",
+    "scikit-learn": "1.7.1",
+    "sentence-transformers": "5.1.0"
+  },
+  "qdrant_version": "1.19.1",
+  "warmups": 3,
+  "repeats": 20,
+  "collections": {
+    "newsgroups_hnsw_default": {
+      "points_count": 5856,
+      "indexed_vectors_count": 5856,
+      "status": "green",
+      "optimizer_status": "ok",
+      "m": 16,
+      "ef_construct": 100,
+      "full_scan_threshold": 10,
+      "indexing_threshold": 1
+    },
+    "newsgroups_hnsw_undertuned": {
+      "points_count": 5856,
+      "indexed_vectors_count": 5856,
+      "status": "green",
+      "optimizer_status": "ok",
+      "m": 2,
+      "ef_construct": 8,
+      "full_scan_threshold": 10,
+      "indexing_threshold": 1
+    }
+  },
+  "timing": "Qdrant includes HTTP/client overhead; IVF is in-process. Payload disabled."
+}

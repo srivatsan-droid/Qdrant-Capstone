@@ -1,0 +1,9 @@
+venv/
+venv311/
+.venv/
+__pycache__/
+*.pyc
+data/
+qdrant_storage/
+qdrant_capstone_storage_v1151/
+.DS_Store
