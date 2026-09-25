@@ -65,7 +65,7 @@ Cosine measures direction; dot product measures direction and magnitude; Euclide
 
 ## Combined results (Parts 3–5)
 
-Default means default graph parameters with explicit benchmark thresholds. Under-tuned uses m=2 and ef_construct=8. Both set full_scan_threshold=0 and indexing_threshold=1 KB; indexing readiness is checked before timing.
+Default means default graph parameters with explicit benchmark thresholds. Under-tuned uses m=2 and ef_construct=8. Both set full_scan_threshold=10 and indexing_threshold=1 KB; indexing readiness is checked before timing.
 
 | Method | Setting | Average top-five overlap | Average latency (ms) |
 |---|---|---|---|

@@ -1,4 +1,4 @@
-qdrant-client==1.15.1
+qdrant-client==1.19.1
 sentence-transformers==5.1.0
 scikit-learn==1.7.1
 numpy==2.2.6
