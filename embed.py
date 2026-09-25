@@ -43,9 +43,44 @@ def load_queries():
     return matches
 
 
+def load_model():
+    """Load the sentence-transformers model, with its built-in
+    L2-normalization stripped out.
+
+    `all-MiniLM-L6-v2` (like most of the `all-*` sentence-transformers
+    models) ships with a `Normalize` module baked into its pipeline, on top
+    of the transformer + mean-pooling. That makes *every* embedding it
+    produces unit-length, no matter what you pass to `.encode()`.
+
+    That matters a lot for Part 2: if every document vector and every query
+    vector has norm 1, then dot product and cosine similarity are always
+    the *same ranking* (dot = cosine * ||query||, and ||query|| is constant
+    for a given query), and Euclidean distance is a strictly monotonic
+    function of cosine similarity for unit vectors
+    (d^2 = 2 - 2*cos). So with unit vectors, cosine / Euclidean / dot can
+    *never* disagree on ranking, for any query -- there would be nothing to
+    find for Part 2, no matter how many queries you tried.
+
+    Removing the trailing Normalize module keeps the same transformer +
+    pooling (so it's still "real" all-MiniLM-L6-v2 semantics), but lets
+    embeddings keep their raw, document-dependent magnitude, so dot product
+    can actually diverge from cosine.
+    """
+    model = SentenceTransformer(MODEL_NAME)
+    last_key = list(model._modules.keys())[-1]
+    if type(model._modules[last_key]).__name__ == "Normalize":
+        print(
+            "Detected a built-in Normalize module on "
+            f"'{MODEL_NAME}' -- removing it so embeddings keep their "
+            "raw magnitude (needed for Part 2 to be meaningful)."
+        )
+        del model._modules[last_key]
+    return model
+
+
 def main():
     print(f"Loading model '{MODEL_NAME}' (downloads once, cached after)...")
-    model = SentenceTransformer(MODEL_NAME)
+    model = load_model()
 
     documents = load_documents()
     texts = [d["text"] for d in documents]

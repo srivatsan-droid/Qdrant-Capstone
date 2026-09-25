@@ -7,7 +7,11 @@
 > questions to answer, and what to look for are already laid out — you're
 > filling in real numbers and your own explanation, not writing from
 > scratch.
-
+> **If you're re-running after the embed.py / qdrant_setup.py fix:** all
+> three `results/*.json` files are now stale (they were generated from
+> unit-normalized embeddings and a milder under-tuned HNSW config) and need
+> to be regenerated from scratch — delete `data/*.pkl`, `data/*.npy`, and
+> `data/ivf_index.pkl`, then re-run the full pipeline.
 ## Part 2: Distance metrics — where ranking order differs
 
 `results/distance_metrics.json` has the top-5 for every query under Cosine,
@@ -29,18 +33,25 @@ larger norm (often correlated with longer or more topically "dense" text)
 can outscore a better-angled but shorter embedding purely because of its
 length. TODO: name the specific document pair from your run and which of
 these three explanations actually applies to it.
+*(This only works because `embed.py` strips `all-MiniLM-L6-v2`'s built-in
+Normalize module. With unit-normalized embeddings, dot product and cosine
+give the exact same ranking for every query, and Euclidean distance is a
+monotonic function of cosine similarity — so all three metrics would be
+mathematically forced to agree, and there'd be nothing to find here.)*
 
 ## Part 3: Exact search vs. HNSW (default vs. under-tuned)
 
 | Method | ef | Avg. top-5 overlap with exact | Avg. latency (ms) |
 |---|---|---|---|
 | Exact (brute-force) | — | 1.00 | TODO |
+| HNSW default | 4 | TODO | TODO |
 | HNSW default | 16 | TODO | TODO |
 | HNSW default | 64 | TODO | TODO |
 | HNSW default | 128 | TODO | TODO |
-| HNSW under-tuned (m=4, ef_construct=16) | 16 | TODO | TODO |
-| HNSW under-tuned (m=4, ef_construct=16) | 64 | TODO | TODO |
-| HNSW under-tuned (m=4, ef_construct=16) | 128 | TODO | TODO |
+| HNSW under-tuned (m=2, ef_construct=8) | 4 | TODO | TODO |
+| HNSW under-tuned (m=2, ef_construct=8) | 16 | TODO | TODO |
+| HNSW under-tuned (m=2, ef_construct=8) | 64 | TODO | TODO |
+| HNSW under-tuned (m=2, ef_construct=8) | 128 | TODO | TODO |
 
 *(Average each column across all 5 queries from `results/hnsw.json`.)*
 
@@ -80,9 +91,11 @@ net to more clusters, shrinking that blind spot, until at
 | Method | Setting | Avg. top-5 overlap with exact | Avg. latency (ms) |
 |---|---|---|---|
 | Exact (brute-force) | — | 1.00 | TODO |
+| HNSW default | ef=4 | TODO | TODO |
 | HNSW default | ef=16 | TODO | TODO |
 | HNSW default | ef=64 | TODO | TODO |
 | HNSW default | ef=128 | TODO | TODO |
+| HNSW under-tuned | ef=4 | TODO | TODO |
 | HNSW under-tuned | ef=16 | TODO | TODO |
 | HNSW under-tuned | ef=64 | TODO | TODO |
 | HNSW under-tuned | ef=128 | TODO | TODO |

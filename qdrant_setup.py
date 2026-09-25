@@ -36,7 +36,7 @@ HNSW_UNDERTUNED_COLLECTION = "newsgroups_hnsw_undertuned"
 
 # Deliberately weak: few graph edges per node (m) and little effort spent
 # building the graph (ef_construct) -> should recall worse than the default.
-UNDERTUNED_HNSW_CONFIG = HnswConfigDiff(m=4, ef_construct=16)
+UNDERTUNED_HNSW_CONFIG = HnswConfigDiff(m=2, ef_construct=8)
 
 
 def load_vectors_and_metadata():

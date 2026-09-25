@@ -30,7 +30,7 @@ DOC_METADATA_PATH = Path("data/doc_metadata.pkl")
 DISTANCE_COLLECTIONS = ["newsgroups_cosine", "newsgroups_euclidean", "newsgroups_dot"]
 HNSW_DEFAULT_COLLECTION = "newsgroups_hnsw_default"
 HNSW_UNDERTUNED_COLLECTION = "newsgroups_hnsw_undertuned"
-EF_VALUES = [16, 64, 128]
+EF_VALUES = [4, 16, 64, 128]
 NPROBE_VALUES = [1, 8]
 TOP_K = 5
 
