@@ -87,6 +87,7 @@ def run_distance_metric_comparison(client, query_texts, query_vectors, metadata)
             top = hits[0]
             print(f"  [{collection}] '{q_text[:40]}...' -> top id {top.id} "
                   f"({metadata[top.id]['category']}, score={top.score:.4f})")
+            print(f"  Text: {metadata[top.id]['text']}")
         output.append(row)
 
     RESULTS_DIR.mkdir(exist_ok=True)
